@@ -1,7 +1,0 @@
-name: bb-ctl-pub
-on: [workflow_dispatch]
-jobs:
-  probe:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo bb-public-repo-control
